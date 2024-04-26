@@ -14,7 +14,27 @@
     width: 100%;
   }
 
+  button {
+    width: 40%;
+    height: 32px;
+
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    transition: transform 0.5s;
+  }
+
+  button:hover {
+    background-color: rgb(197, 251, 251);
+    transform: scale(1.1);
+  }
+
   .card-text {
     padding: 0 16px 16px 16px;
+  }
+
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
   }
 }
