@@ -1,5 +1,20 @@
 .card {
+  overflow: hidden;
+
   min-height: 400px;
   background-color: #fff;
   width: 400px;
+
+  border: 1px solid #000;
+  border-radius: 16px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  img {
+    width: 100%;
+  }
+
+  .card-text {
+    padding: 0 16px;
+  }
 }
