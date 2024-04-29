@@ -14,6 +14,14 @@ import { HeroCardComponent } from './hero-card/hero-card.component';
 export class AppComponent {
   title = 'devaka_anagular';
 
+  images = [
+    'assets/img/hero01.jpg',
+    'assets/img/hero02.jpg',
+    'assets/img/hero03.jpg',
+    'assets/img/hero04.jpg',
+  ];
+  names = ['Agnea', 'Castii', 'Hikari', 'Temenos'];
+
   myAlert() {
     alert('Hello');
   }
