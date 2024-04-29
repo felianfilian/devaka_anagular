@@ -1,5 +1,9 @@
 <app-header></app-header>
 
 <div class="container">
-  <app-hero-card [name]="names[0]" [image]="images[0]"></app-hero-card>
+  <app-hero-card
+    *ngFor="let i of [0, 1, 2, 3]"
+    [name]="names[i]"
+    [image]="images[i]"
+  ></app-hero-card>
 </div>
