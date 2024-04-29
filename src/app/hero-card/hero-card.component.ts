@@ -9,6 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class HeroCardComponent {
   @Input() name: string = '';
+  @Input() image: string = '';
 
   // name = 'Angea';
 }
