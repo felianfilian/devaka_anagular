@@ -16,11 +16,21 @@ button:hover {
   background-color: #d5e2ff;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 32px;
   flex-wrap: wrap;
 
+  width: 60%;
+
   padding: 64px;
+
+  background-color: grey;
 }
