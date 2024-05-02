@@ -2,6 +2,12 @@
   padding: 8px 16px;
 
   img {
-    width: 150px;
+    object-fit: cover;
+    object-position: center;
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
   }
 }
