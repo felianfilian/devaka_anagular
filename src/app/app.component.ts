@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { HeroCardComponent } from './hero-card/hero-card.component';
 import { ProposalComponent } from './proposal/proposal.component';
+import { ProfileItemComponent } from './profile-item/profile-item.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { ProposalComponent } from './proposal/proposal.component';
     HeaderComponent,
     HeroCardComponent,
     ProposalComponent,
+    ProfileItemComponent,
   ],
 })
 export class AppComponent {

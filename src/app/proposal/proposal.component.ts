@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { ProfileItemComponent } from '../profile-item/profile-item.component';
 
 @Component({
   selector: 'app-proposal',
   standalone: true,
-  imports: [],
   templateUrl: './proposal.component.html',
-  styleUrl: './proposal.component.scss'
+  styleUrl: './proposal.component.scss',
+  imports: [ProfileItemComponent],
 })
-export class ProposalComponent {
-
-}
+export class ProposalComponent {}
