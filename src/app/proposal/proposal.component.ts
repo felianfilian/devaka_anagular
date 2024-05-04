@@ -8,4 +8,12 @@ import { ProfileItemComponent } from '../profile-item/profile-item.component';
   styleUrl: './proposal.component.scss',
   imports: [ProfileItemComponent],
 })
-export class ProposalComponent {}
+export class ProposalComponent {
+  images = [
+    'assets/img/hero01.jpg',
+    'assets/img/hero02.jpg',
+
+    'assets/img/hero04.jpg',
+  ];
+  names = ['Agnea', 'Castii', 'Hikari'];
+}
