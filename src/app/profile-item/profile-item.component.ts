@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ProfileItemComponent {
   @Input() name = 'Agnea';
+  @Input() img = 'assets/img/hero01.jpg';
 }

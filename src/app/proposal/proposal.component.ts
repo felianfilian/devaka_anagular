@@ -10,10 +10,9 @@ import { ProfileItemComponent } from '../profile-item/profile-item.component';
 })
 export class ProposalComponent {
   images = [
-    'assets/img/hero01.jpg',
     'assets/img/hero02.jpg',
-
+    'assets/img/hero03.jpg',
     'assets/img/hero04.jpg',
   ];
-  names = ['Agnea', 'Castii', 'Hikari'];
+  names = ['Castii', 'Hikari', 'Temenos'];
 }
