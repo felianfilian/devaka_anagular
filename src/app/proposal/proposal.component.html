@@ -3,6 +3,9 @@
 
   <b>New friends</b>
 
-  <app-profile-item [name]="names[0]" [img]="images[0]"></app-profile-item>
-  <app-profile-item [name]="names[1]" [img]="images[1]"></app-profile-item>
+  <app-profile-item
+    *ngFor="let i of [0, 1, 2]"
+    [name]="names[i]"
+    [img]="images[i]"
+  ></app-profile-item>
 </div>
