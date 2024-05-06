@@ -4,8 +4,8 @@
   <b>New friends</b>
 
   <app-profile-item
-    *ngFor="let i of [0, 1, 2]"
-    [name]="names[i]"
-    [img]="images[i]"
+    *ngFor="let prop of proposals"
+    [name]="prop.name"
+    [img]="prop.img"
   ></app-profile-item>
 </div>
