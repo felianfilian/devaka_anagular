@@ -11,6 +11,4 @@ export class HeroCardComponent {
   @Input() name: string = '';
   @Input() image: string = '';
   @Input() prof: string = '';
-
-  // name = 'Angea';
 }
