@@ -30,6 +30,7 @@ export class AppComponent {
     'assets/img/hero04.jpg',
   ];
   names = ['Agnea', 'Castii', 'Hikari', 'Temenos'];
+  prof = ['Dancer', 'Healer', 'Warrior', 'Cleric'];
 
   myAlert() {
     alert('Hello');
