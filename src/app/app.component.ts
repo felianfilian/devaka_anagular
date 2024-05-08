@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { HeroCardComponent } from './hero-card/hero-card.component';
 import { ProposalComponent } from './proposal/proposal.component';
 import { ProfileItemComponent } from './profile-item/profile-item.component';
+import { FriendboxComponent } from './friendbox/friendbox.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { ProfileItemComponent } from './profile-item/profile-item.component';
     HeroCardComponent,
     ProposalComponent,
     ProfileItemComponent,
+    FriendboxComponent,
   ],
 })
 export class AppComponent {
