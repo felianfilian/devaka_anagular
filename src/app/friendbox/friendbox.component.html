@@ -1,5 +1,6 @@
-<div class="std-card pd-16">
+<div class="std-card pd-16 friend-row">
   <div class="friend" *ngFor="let friend of friends">
+    <img src="{{ friend.img }}" alt="" />
     {{ friend.name }}
   </div>
 </div>
