@@ -26,10 +26,17 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+.pd-16 {
+  padding: 16px;
+}
+
 .std-card {
-  background-color: #fff;
+  box-sizing: border-box;
   width: 300px;
 
+  margin-bottom: 16px;
+
+  background-color: #fff;
   border: 1px solid #000;
   border-radius: 16px;
 }
