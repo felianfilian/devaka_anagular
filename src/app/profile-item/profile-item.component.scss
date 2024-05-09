@@ -1,6 +1,7 @@
 .list-item {
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   margin: 16px 0;
 
@@ -19,9 +20,21 @@
   .prop-deecription {
     display: flex;
     flex-direction: column;
+    width: 120px;
   }
 }
 
 .btn-follow {
+  padding: 8px 16px;
+
+  border: 2px solid rgb(8, 21, 111);
+  border-radius: 8px;
+  color: rgb(8, 21, 111);
   text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #a7e5f2;
+    color: #000;
+  }
 }
