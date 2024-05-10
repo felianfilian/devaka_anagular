@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-friendbox',
@@ -9,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './friendbox.component.scss',
 })
 export class FriendboxComponent {
-  constructor() {}
+  constructor(public hs: HeroService) {}
 }
