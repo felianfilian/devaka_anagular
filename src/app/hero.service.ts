@@ -23,4 +23,6 @@ export class HeroService {
   ];
 
   constructor() {}
+
+  addHero(friend) {}
 }
