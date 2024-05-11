@@ -3,6 +3,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
+
+interface Friend {
+  name: string;
+  img: string;
+  prof: string;
+}
+
 export class HeroService {
   friends = [
     {
@@ -24,5 +31,7 @@ export class HeroService {
 
   constructor() {}
 
-  addHero(friend) {}
+  addHero(friend: Friend) {
+    this.friends.push(friend);
+  }
 }
