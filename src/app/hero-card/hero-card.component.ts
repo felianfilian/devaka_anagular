@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-card',
@@ -11,4 +12,6 @@ export class HeroCardComponent {
   @Input() name: string = '';
   @Input() image: string = '';
   @Input() prof: string = '';
+
+  constructor(public hs: HeroService) {}
 }
